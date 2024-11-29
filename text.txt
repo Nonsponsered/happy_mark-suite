@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Mark Suite Rooms</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Happy Mark Suite Rooms</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#rooms">Rooms</a></li>
+          <li><a href="#booking">Book Now</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="banner">
+    <div class="container">
+      <h2>Welcome to Happy Mark Suite Rooms</h2>
+      <p>Your Comfort, Our Priority</p>
+      <a href="#booking" class="btn">Book Now</a>
+    </div>
+  </section>
+
+  <section id="rooms">
+    <div class="container">
+      <h2>Our Rooms</h2>
+      <div class="room">
+        <img src="room1.jpg" alt="Deluxe Room">
+        <h3>Deluxe Room</h3>
+        <p>₹3000 per night</p>
+        <ul>
+          <li>Free WiFi</li>
+          <li>Complimentary Breakfast</li>
+          <li>Air Conditioning</li>
+        </ul>
+        <a href="#booking" class="btn">Book Now</a>
+      </div>
+      <div class="room">
+        <img src="room2.jpg" alt="Suite">
+        <h3>Suite</h3>
+        <p>₹5000 per night</p>
+        <ul>
+          <li>Free WiFi</li>
+          <li>Room Service</li>
+          <li>Luxury Bath</li>
+        </ul>
+        <a href="#booking" class="btn">Book Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="booking">
+    <div class="container">
+      <h2>Book Your Stay</h2>
+      <form>
+        <label for="checkin">Check-In Date:</label>
+        <input type="date" id="checkin" name="checkin" required>
+
+        <label for="checkout">Check-Out Date:</label>
+        <input type="date" id="checkout" name="checkout" required>
+
+        <label for="guests">Number of Guests:</label>
+        <input type="number" id="guests" name="guests" min="1" max="10" required>
+
+        <label for="payment">Payment Method:</label>
+        <select id="payment" name="payment" required>
+          <option value="upi">UPI</option>
+          <option value="card">Credit/Debit Card</option>
+        </select>
+
+        <button type="submit" class="btn">Confirm Booking</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Address: 1/14F Vishwas Khand, Gomti Nagar, near Mithaiwala Chauraha</p>
+      <p>Payment Options: UPI - <strong>8467994491@axl</strong> or Credit/Debit Card</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Happy Mark Suite Rooms. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
